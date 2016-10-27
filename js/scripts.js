@@ -1,6 +1,7 @@
 //business logic
 var emptyArray = []
-
+var Array2 = []
+var Arrayby2 = []
 var basic = function(words) {
   debugger;
   emptyArray =[];
@@ -8,7 +9,19 @@ var basic = function(words) {
   var finalStuff = replaceStuff.replace(/\s{2,}/g," ");
   var splitIt = finalStuff.split("");
   emptyArray.push(splitIt);
+  var numberOfRows = parseInt(Math.sqrt(emptyArray.length));
+  var numberOfColumns = numberOfRows + 1;
 
+  //var column =
+
+    //for(var index = 0; index < emptyArray.length; index++) {
+      //if (emptyArray.length < 5) {
+      //Array2.push(emptyArray[0]) {
+
+    //} else
+
+    //}
+  //}
   return emptyArray
 };
 
